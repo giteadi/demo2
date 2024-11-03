@@ -16,3 +16,6 @@ app.get('/',(req,res)=>{
 app.get('/twitter',(req,res)=>{
     res.send("Hello Twitter")
 })
+app.get('/youtube',(req,res)=>{
+    res.send("Hello youtube")
+})
